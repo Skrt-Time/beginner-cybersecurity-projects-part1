@@ -1,0 +1,9 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# OSINT Output files
+*.txt
+*.csv
+*.json

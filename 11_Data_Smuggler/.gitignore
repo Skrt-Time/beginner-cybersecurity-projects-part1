@@ -1,0 +1,8 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore images to keep repository clean
+*.png
+*.jpg

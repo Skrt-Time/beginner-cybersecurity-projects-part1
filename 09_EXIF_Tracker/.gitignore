@@ -1,0 +1,14 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
+*.tiff
+*.gif
+*.bmp

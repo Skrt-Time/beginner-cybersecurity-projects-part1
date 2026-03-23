@@ -57,3 +57,8 @@ sudo .venv/bin/python keylogger.py
 sudo .venv/bin/python keylogger.py -o stealth_logs.txt
 ```
 
+## 🔮 Future Perspectives (Roadmap)
+To elevate this educational tool further, the following features could be implemented:
+1. **Network Exfiltration:** Add a secure, encrypted socket mechanism to silently transmit the captured keystrokes to a remote listening server instead of saving them to a local file.
+2. **Process Hiding:** Research Linux rootkit techniques to hide the keylogger process from commands like `ps` or `top`.
+3. **Application Context:** Integrate X11/Wayland window tracking to log not just the keystrokes, but the name of the active application (e.g., "Firefox - Gmail").
